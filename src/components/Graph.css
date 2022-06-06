@@ -1,0 +1,30 @@
+.ECG-Cont{
+    height: 50vh;   
+    margin: 25px;
+}
+.Sub-Cont{
+    height: 35vh;
+    margin: 12px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main-cont{
+    margin: 3rem 0;
+}
+.speedometer{
+    width: 300px;
+
+}
+
+@media (max-width: 850px){
+    .Sub-Cont{
+        height: 20vh;
+        margin: 12px;
+        padding: 10px;
+    }
+    .speedometer{
+        width: 280px !important;
+    }
+}
